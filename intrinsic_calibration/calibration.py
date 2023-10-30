@@ -2,7 +2,7 @@ import numpy as np
 import cv2 as cv
 import glob
 import pickle
-
+#jurica 
 ################ FIND CHESSBOARD CORNERS - OBJECT POINTS AND IMAGE POINTS #############################
 numcam = 3
 chessboardSize = (8,6)

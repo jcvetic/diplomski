@@ -1,6 +1,6 @@
 import cv2 as cv
 width1 = 800 ; height1 = 600; framerate = "30/1"; numcam = 3
-
+# jurica 
 for cam in range(numcam):
     current_cam = (
         "v4l2src device=/dev/video{} ! "
