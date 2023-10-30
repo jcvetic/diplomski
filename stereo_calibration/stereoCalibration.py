@@ -1,7 +1,7 @@
 import cv2 as cv
 import numpy as np
 import glob
-# jurica
+# jurica12
 #refcam = 0; camnum = 1, camcount = 2 
 chessBoardSize = (8,6)
 frameSize = (800,600)
