@@ -6,7 +6,7 @@ imgpath = '/home/fsb/Desktop/diplomski_opencv/stereo_calibration/'
 referencecam = 0; camnum = 2; size = 30
 criteria = (cv.TERM_CRITERIA_EPS + cv.TERM_CRITERIA_MAX_ITER, 30, 0.001)
 chessBoardSize = (8,6)
-
+12
 def detect_board(imageref, image1,  grayimageref, grayimage1, criteria, chessBoardSize, matrixrex, matrix1, distref, dist1, rvecref, rvec1, tvecref, tvec1):
     retref, cornersref = cv.findChessboardCorners(grayimageref, chessBoardSize, None)
     ret1, corners1 = cv.findChessboardCorners(grayimage1, chessBoardSize, None)
