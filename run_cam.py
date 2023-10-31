@@ -4,7 +4,7 @@ import numpy as np
 cam = 0 ; numcam = 3; cameramatrices = []
 for cam in range(numcam):
     cameramatrix = np.load("/home/fsb/Desktop/diplomski_opencv/cameraMatrix_cam{}.pkl".format(cam))
-    cameramatricesI.append(cameramatrix)
+    cameramatrices.append(cameramatrix)
     
 width1 = 640 ; height1 = 480; framerate = "10/1"
 
@@ -49,4 +49,3 @@ cap1.release()
 cap2.release()
 cap3.release()
 cv.destroyAllWindows()
-#jurica
