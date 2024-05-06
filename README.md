@@ -1,4 +1,4 @@
-Ovdje se nalaze svi algoritmi za potrebe igre pikada. <br>
+Ovdje se nalaze svi razvijeni algoritmi za zbrajanje postignutog rezultata u igri pikada. <br>
 
 __YouTube__ link --> https://youtu.be/Usfr6VG6Rb4 <br>
 
