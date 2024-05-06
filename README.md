@@ -1,5 +1,7 @@
 Ovdje se nalaze svi algoritmi za potrebe igre pikada. <br>
 
+YouTube link --> https://youtu.be/Usfr6VG6Rb4 <br>
+
 getImages.py - algoritam za spremanje slika u procesu kalibracije <br>
 calibration.py - algoritam za provedbu intrinzične kalibracije <br>
 borders.py - algoritam za izračun matrice homografije i pronalazak centra mete <br>
